@@ -1,0 +1,31 @@
+    #navbar{
+        overflow: hidden;
+    }
+
+    #navbar a{
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+    }
+
+    #navbar a:hover{
+        background-color: ;
+        color: ;
+    }
+
+    #navbar a:active{
+        background-color: ;
+        color: ;
+    }
+
+    .stick{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .stick +#content{
+        padding-top: 60px;
+    }
